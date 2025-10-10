@@ -11,8 +11,7 @@ header {
     align-items: center;
     padding: 0 30px;
     height: 80px;
-    background-color: #5ce1e6;
-    border-bottom: 1px solid #ccc;
+    background-color: #a00400;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -26,8 +25,9 @@ header {
 }
 
 .logo {
-    height: 100px;
+    height: 160px;
     width: auto;
+    margin-top: 5px;
 }
 
 #menu{
@@ -42,17 +42,35 @@ header {
 
 #menu ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
     font-weight: 500;
-    transition: color 0.3s ease;
+    font-size: 20px;
+    transition: all 0.2s;
 }
 
 #menu ul li a:hover {
-    color: #007c9b;
+    color: #12a000;
+}
+
+.kiosco-container {
+  position: relative;
+  text-align: center;
 }
 
 .kiosco-imagen {
-    height: 400px;
+    height: 500px;
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    filter: brightness(60%);
+}
+
+.kiosco-texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fffaf7;
+  font-size: 2.5rem;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  font-family: 'Poppins', sans-serif;
 }
