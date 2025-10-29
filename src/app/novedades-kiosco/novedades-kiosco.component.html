@@ -1,20 +1,15 @@
 <section class="novedades">
   <h1 class="novedades-titulo">DESCUBRE NUESTRAS NOVEDADES</h1>
   <div class="novedades-cards">
-    <div class="card">
-      <img src="assets/imagen-prueba.png" alt="Novedad 1">
-      <h2 class="card-titulo">Título 1</h2>
-      <p class="card-descripcion">Descripción breve de la novedad número uno.</p>
-    </div>
-    <div class="card">
-      <img src="assets/imagen-prueba.png" alt="Novedad 2">
-      <h2 class="card-titulo">Título 2</h2>
-      <p class="card-descripcion">Descripción breve de la novedad número dos.</p>
-    </div>
-    <div class="card">
-      <img src="assets/imagen-prueba.png" alt="Novedad 3">
-      <h2 class="card-titulo">Título 3</h2>
-      <p class="card-descripcion">Descripción breve de la novedad número tres.</p>
-    </div>
+  <div
+    class="card"
+    *ngFor="let novedad of novedades"
+    #cardRef
+    [@fadeSlide]="novedad.visible ? 'visible' : 'hidden'"
+  >
+    <img [src]="novedad.imagen" [alt]="novedad.titulo">
+    <h2 class="card-titulo">{{ novedad.titulo }}</h2>
+    <p class="card-descripcion">{{ novedad.descripcion }}</p>
   </div>
+</div>
 </section>
