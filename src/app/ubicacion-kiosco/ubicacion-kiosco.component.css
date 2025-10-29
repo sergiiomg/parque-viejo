@@ -1,0 +1,21 @@
+.ubicacion {
+  background-color: #f0f0f0;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ubicacion-titulo {
+  font-size: 2.8rem;
+  color: #12a000;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+iframe {
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
