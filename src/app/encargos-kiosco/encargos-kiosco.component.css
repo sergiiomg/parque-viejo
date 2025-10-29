@@ -1,0 +1,56 @@
+.encargos {
+  background-color: #fffaf7;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.encargos-titulo {
+  font-size: 2.8rem;
+  color: #a00400;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.encargos-intro,
+.encargos-final {
+  font-size: 1.1rem;
+  color: #333;
+  margin: 20px auto;
+  max-width: 700px;
+  line-height: 1.6;
+}
+
+.encargos-imagen img {
+  width: 400px;
+  max-width: 90%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  margin: 40px 0;
+}
+
+.whatsapp-btn {
+  background-color: #25D366;
+  color: white;
+  font-size: 1.1rem;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe5d;
+}
+
+.whatsapp-icon {
+  width: 24px;
+  height: 24px;
+}
