@@ -1,12 +1,12 @@
 <section class="novedades">
   <h1 class="novedades-titulo">DESCUBRE NUESTRAS NOVEDADES</h1>
   <div class="novedades-cards">
-  <div
-    class="card"
-    *ngFor="let novedad of novedades"
-    #cardRef
-    [@fadeSlide]="novedad.visible ? 'visible' : 'hidden'"
-  >
+    <div
+      class="card"
+      *ngFor="let novedad of novedades"
+      #cardRef
+      [@fadeSlide]="novedad.visible ? 'visible' : 'hidden'"
+    >
     <img [src]="novedad.imagen" [alt]="novedad.titulo">
     <h2 class="card-titulo">{{ novedad.titulo }}</h2>
     <p class="card-descripcion">{{ novedad.descripcion }}</p>
