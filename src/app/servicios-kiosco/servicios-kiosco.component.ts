@@ -28,38 +28,38 @@ import { AfterViewInit, ElementRef, QueryList, ViewChildren } from '@angular/cor
 export class ServiciosKioscoComponent {
 servicios = [
     {
-      imagen: 'assets/imagen-prueba.png',
-      titulo: 'Título 1',
+      imagen: 'assets/prensa.jpeg',
+      titulo: 'Prensa',
       descripcion: 'Descripción breve del servicio número uno.',
       visible: false
     },
     {
-      imagen: 'assets/imagen-prueba.png',
-      titulo: 'Título 2',
+      imagen: 'assets/tabaco.jpeg',
+      titulo: 'Tabaco',
       descripcion: 'Descripción breve del servicio número dos.',
       visible: false
     },
     {
-      imagen: 'assets/imagen-prueba.png',
-      titulo: 'Título 3',
+      imagen: 'assets/paquetes-gominolas.jpeg',
+      titulo: 'Paquetes de gominolas',
       descripcion: 'Descripción breve del servicio número tres.',
       visible: false
     },
     {
-      imagen: 'assets/imagen-prueba.png',
-      titulo: 'Título 4',
+      imagen: 'assets/pendientes-artesanales.jpeg',
+      titulo: 'Pendientes',
       descripcion: 'Descripción breve del servicio número cuatro.',
       visible: false
     },
     {
-      imagen: 'assets/imagen-prueba.png',
-      titulo: 'Título 5',
+      imagen: 'assets/snacks.jpeg',
+      titulo: 'Snacks',
       descripcion: 'Descripción breve del servicio número cinco.',
       visible: false
     },
     {
-      imagen: 'assets/imagen-prueba.png',
-      titulo: 'Título 6',
+      imagen: 'assets/chuches.jpeg',
+      titulo: 'Chuches',
       descripcion: 'Descripción breve del servicio número seis.',
       visible: false
     }
