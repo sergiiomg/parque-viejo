@@ -5,11 +5,12 @@ import { NovedadesKioscoComponent } from './novedades-kiosco/novedades-kiosco.co
 import { ServiciosKioscoComponent } from './servicios-kiosco/servicios-kiosco.component';
 import { EncargosKioscoComponent } from './encargos-kiosco/encargos-kiosco.component';
 import { UbicacionKioscoComponent } from './ubicacion-kiosco/ubicacion-kiosco.component';
+import { FooterKioscoComponent } from './footer-kiosco/footer-kiosco.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HeaderKioscoComponent, NovedadesKioscoComponent, ServiciosKioscoComponent, EncargosKioscoComponent, UbicacionKioscoComponent],
+  imports: [HeaderKioscoComponent, NovedadesKioscoComponent, ServiciosKioscoComponent, EncargosKioscoComponent, UbicacionKioscoComponent, FooterKioscoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
