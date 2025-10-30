@@ -1,4 +1,4 @@
-.novedades {
+#novedades {
   background-color: #fffaf7;
   text-align: center;
   padding: 20px 20px;
@@ -33,7 +33,7 @@
 }
 
 .card:hover {
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 16px #a00400;
 }
 
 
