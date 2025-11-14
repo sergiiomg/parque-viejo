@@ -30,37 +30,31 @@ servicios = [
     {
       imagen: 'assets/prensa.jpeg',
       titulo: 'Prensa',
-      descripcion: 'Descripción breve del servicio número uno.',
+      visible: false
+    },
+    {
+      imagen: 'assets/imagen-prueba.png',
+      titulo: 'Revistas',
+      visible: false
+    },
+    {
+      imagen: 'assets/paquetes-gominolas.jpeg',
+      titulo: 'Golosinas',
+      visible: false
+    },
+    {
+      imagen: 'assets/imagen-prueba.png',
+      titulo: 'Revoltijos',
+      visible: false
+    },
+    {
+      imagen: 'assets/imagen-prueba.png',
+      titulo: 'Recargas CTA y móvil',
       visible: false
     },
     {
       imagen: 'assets/tabaco.jpeg',
       titulo: 'Tabaco',
-      descripcion: 'Descripción breve del servicio número dos.',
-      visible: false
-    },
-    {
-      imagen: 'assets/paquetes-gominolas.jpeg',
-      titulo: 'Paquetes de gominolas',
-      descripcion: 'Descripción breve del servicio número tres.',
-      visible: false
-    },
-    {
-      imagen: 'assets/pendientes-artesanales.jpeg',
-      titulo: 'Pendientes',
-      descripcion: 'Descripción breve del servicio número cuatro.',
-      visible: false
-    },
-    {
-      imagen: 'assets/snacks.jpeg',
-      titulo: 'Snacks',
-      descripcion: 'Descripción breve del servicio número cinco.',
-      visible: false
-    },
-    {
-      imagen: 'assets/chuches.jpeg',
-      titulo: 'Chuches',
-      descripcion: 'Descripción breve del servicio número seis.',
       visible: false
     }
   ];
