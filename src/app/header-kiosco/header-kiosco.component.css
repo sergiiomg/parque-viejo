@@ -68,6 +68,7 @@ header {
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     filter: brightness(60%);
+    object-position: center;
 }
 
 .kiosco-texto {
@@ -120,4 +121,12 @@ header {
   .hamburger {
     display: flex;
   }
+
+  .kiosco-imagen {
+        object-position: right center;
+    }
+
+  .kiosco-texto {
+        min-width: 500px;
+    }  
 }
