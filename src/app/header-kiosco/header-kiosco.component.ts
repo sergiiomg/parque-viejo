@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './header-kiosco.component.css'
 })
 export class HeaderKioscoComponent {
-
+  menuOpen = false;
+  
+    toggleMenu() {
+      this.menuOpen = !this.menuOpen;
+    }
 }

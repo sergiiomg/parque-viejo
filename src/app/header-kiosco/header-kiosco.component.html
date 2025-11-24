@@ -1,18 +1,30 @@
 <header>
-    <div id="logo">
-        <a href="#"><img src="assets/logo.png" alt="Logo Parque Viejo" class="logo"></a>
+  <div id="logo">
+    <a href="#">
+      <img src="assets/logo.png" alt="Logo Parque Viejo" class="logo">
+    </a>
+  </div>
+
+  <div id="menu">
+    <!-- Botón hamburguesa -->
+    <div class="hamburger" (click)="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
-    <div id="menu">
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#novedades">Novedades</a></li>
-            <li><a href="#servicios">Servicios</a></li>
-            <li><a href="#encargos">Encargos</a></li>
-            <li><a href="#ubicacion">Ubicación</a></li>
-        </ul>
-    </div>
+
+    <!-- Menú -->
+    <ul [class.active]="menuOpen">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#novedades">Novedades</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#encargos">Encargos</a></li>
+      <li><a href="#ubicacion">Ubicación</a></li>
+    </ul>
+  </div>
 </header>
+
 <div class="kiosco-container">
-    <img src="assets/kiosco.jpg" alt="Imagen Kiosco Exterior" class="kiosco-imagen">
-    <h1 class="kiosco-texto">Tu kiosco de siempre, más cerca que nunca.</h1>
+  <img src="assets/kiosco.jpg" alt="Imagen Kiosco Exterior" class="kiosco-imagen">
+  <h1 class="kiosco-texto">Tu kiosco de siempre, más cerca que nunca.</h1>
 </div>

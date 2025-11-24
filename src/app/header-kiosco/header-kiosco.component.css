@@ -82,3 +82,42 @@ header {
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   font-family: 'Poppins', sans-serif;
 }
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: #fff;
+  border-radius: 2px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+  #menu ul {
+    display: none;
+    flex-direction: column;
+    background-color: #a00400;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    padding: 20px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+
+  #menu ul.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
