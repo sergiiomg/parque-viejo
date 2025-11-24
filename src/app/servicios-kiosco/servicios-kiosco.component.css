@@ -65,3 +65,28 @@
   margin-bottom: 50px;
   line-height: 8px;
 }
+
+@media (max-width: 1024px) {
+  .card {
+    flex: 0 0 calc(50% - 40px); /* 2 cards por fila en tablets */
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .servicios-cards {
+    gap: 30px;
+  }
+
+  .card-titulo {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+}
