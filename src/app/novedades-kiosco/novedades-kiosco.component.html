@@ -7,12 +7,25 @@
     <div
       class="card"
       *ngFor="let novedad of novedades"
+      [class.card-con-descripcion]="novedad.descripcion"
       #cardRef
       [@fadeSlide]="novedad.visible ? 'visible' : 'hidden'"
     >
-    <img [src]="novedad.imagen" [alt]="novedad.titulo">
-    <h2 class="card-titulo">{{ novedad.titulo }}</h2>
-    <p class="card-descripcion">{{ novedad.descripcion }}</p>
+        <!-- CARD NORMAL -->
+      <ng-container *ngIf="novedad.tipo === 'normal'">
+        <img [src]="novedad.imagen" [alt]="novedad.titulo">
+      </ng-container>
+
+      <!-- CARD CON CARRUSEL -->
+      <ng-container *ngIf="novedad.tipo === 'carrusel'">
+        <app-carrusel [imagenes]="novedad.imagenes!"></app-carrusel>
+      </ng-container>
+
+    <!-- CARD CON DESCRIPCIÓN -->
+        <h2 class="card-titulo">{{ novedad.titulo }}</h2>
+        <ng-container class="card-con-descripción" *ngIf="novedad.descripcion">
+          <p class="card-descripcion">{{ novedad.descripcion }}</p>
+        </ng-container>
   </div>
 </div>
 </section>

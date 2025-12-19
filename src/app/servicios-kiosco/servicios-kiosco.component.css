@@ -68,7 +68,7 @@
 
 @media (max-width: 1024px) {
   .card {
-    flex: 0 0 calc(50% - 40px); /* 2 cards por fila en tablets */
+    flex: 0 0 calc(50% - 40px);
     width: auto;
   }
 }

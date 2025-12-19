@@ -31,19 +31,20 @@
 }
 
 .card {
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 1px 4px #a00400;
-  border: 2px solid #a00400;
-  width: 400px;
-  height: 500px;
-  margin-bottom: 50px;
+  flex: 0 0 calc(33.333% - 60px);
+  max-width: 400px;
+  height: 350px;
+  background-color: #12a000;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.35);
   overflow: hidden;
-  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  margin-bottom: 20px;
 }
 
 .card:hover {
-  box-shadow: 0 4px 16px #a00400;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.45);
+  transform: translateY(-8px);
 }
 
 
@@ -54,16 +55,52 @@
 }
 
 .card-titulo {
-  font-size: 1.5rem;
-  color: #a00400;
-  margin: 15px 0 10px;
-  margin-left: 20px;
-  text-align: left;
+  font-size: 1.3rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 8px;
+}
+
+.card.card-con-descripcion {
+  height: 410px;
+}
+
+.card.card-con-descripcion .card-descripcion {
+  margin-top: -45px;
 }
 
 .card-descripcion {
-  font-size: 1rem;
-  color: #333;
-  text-align: left;
-  margin-left: 20px;
+  font-size: 1.1rem;
+  color: #ffffff;
+  padding: 10px 14px 16px;
+}
+
+@media (max-width: 1024px) {
+  .card {
+    flex: 0 0 calc(50% - 40px);
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .servicios-cards {
+    gap: 30px;
+  }
+
+  .card-titulo {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+
+  .card.card-con-descripcion .card-descripcion {
+    margin-top: -10px;
+  }
 }

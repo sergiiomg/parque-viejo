@@ -28,12 +28,12 @@ import { AfterViewInit, ElementRef, QueryList, ViewChildren } from '@angular/cor
 export class ServiciosKioscoComponent {
 servicios = [
     {
-      imagen: 'assets/prensa.jpeg',
+      imagen: 'assets/portadas-periodicos.jpg',
       titulo: 'Prensa',
       visible: false
     },
     {
-      imagen: 'assets/imagen-prueba.png',
+      imagen: 'assets/prensa.jpeg',
       titulo: 'Revistas',
       visible: false
     },
@@ -43,12 +43,12 @@ servicios = [
       visible: false
     },
     {
-      imagen: 'assets/imagen-prueba.png',
+      imagen: 'assets/revoltijos-bien.jpeg',
       titulo: 'Revoltijos',
       visible: false
     },
     {
-      imagen: 'assets/imagen-prueba.png',
+      imagen: 'assets/cta.jpg',
       titulo: 'Recargas CTA y móvil',
       visible: false
     },

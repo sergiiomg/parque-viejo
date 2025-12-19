@@ -10,11 +10,12 @@ import {
 } from '@angular/animations';
 import { CommonModule } from '@angular/common';
 import { AfterViewInit, ElementRef, QueryList, ViewChildren } from '@angular/core';
+import  { CarruselComponent} from '../carrusel/carrusel.component';
 
 @Component({
   selector: 'app-novedades-kiosco',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, CarruselComponent],
   templateUrl: './novedades-kiosco.component.html',
   styleUrl: './novedades-kiosco.component.css',
   animations: [
@@ -28,23 +29,46 @@ import { AfterViewInit, ElementRef, QueryList, ViewChildren } from '@angular/cor
 export class NovedadesKioscoComponent {
 novedades = [
     {
-      imagen: 'assets/imagen-prueba.png',
-      titulo: 'Título 1',
-      descripcion: 'Descripción breve de la novedad número uno.',
-      visible: false
+      imagen: 'assets/bolsas-navidad.jpeg',
+      titulo: 'Revoltijos navideños',
+      visible: false,
+      tipo: 'normal'
     },
     {
-      imagen: 'assets/imagen-prueba.png',
-      titulo: 'Título 2',
-      descripcion: 'Descripción breve de la novedad número dos.',
-      visible: false
+      imagen: 'assets/bandeja-chuches.jpeg',
+      titulo: 'Bandeja de golosinas',
+      visible: false,
+      tipo: 'normal'
     },
     {
-      imagen: 'assets/imagen-prueba.png',
-      titulo: 'Título 3',
-      descripcion: 'Descripción breve de la novedad número tres.',
-      visible: false
-    }
+      imagenes: [
+        'assets/revoltijos-neceser.jpeg',
+        'assets/revoltijos-neceser2.jpeg'
+      ],
+      titulo: 'Revoltijos neceser',
+      visible: false,
+      tipo: 'carrusel'
+    },
+    {
+      imagen: 'assets/bolsa-papanoel.jpeg',
+      titulo: 'Revoltijos personalizados',
+      visible: false,
+      tipo: 'normal'
+    },
+    {
+      imagenes: [
+        'assets/revista-calendario.jpeg',
+        'assets/revista-calendario2.jpeg',
+        'assets/revista-calendario3.jpeg',
+        'assets/revista-calendario4.jpeg',
+        'assets/revista-calendario5.jpeg',
+        'assets/revista-calendario6.jpeg',
+      ],
+      titulo: 'Revista con calendario 2026',
+      visible: false,
+      tipo: 'carrusel',
+      descripcion: 'Han llegado las revistas mensuales con regalo de agenda 2026 ¡No te quedes sin la tuya!'
+    },
   ];
   @ViewChildren('cardRef') cardElements!: QueryList<ElementRef>;
 
