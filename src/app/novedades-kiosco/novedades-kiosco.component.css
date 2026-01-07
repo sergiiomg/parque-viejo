@@ -63,7 +63,7 @@
 }
 
 .card.card-con-descripcion {
-  height: 410px;
+  height: 420px;
 }
 
 .card.card-con-descripcion .card-descripcion {
@@ -74,6 +74,13 @@
   font-size: 1.1rem;
   color: #ffffff;
   padding: 10px 14px 16px;
+}
+
+.card-descripcion:last-child {
+  font-size: 1.1rem;
+  color: #ffffff;
+  padding: 10px 14px 16px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 1024px) {
@@ -96,7 +103,7 @@
   }
 
   .card-titulo {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-bottom: 20px;
   }
 

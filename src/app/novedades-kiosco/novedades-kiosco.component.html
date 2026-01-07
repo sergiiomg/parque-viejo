@@ -6,7 +6,8 @@
   <div class="novedades-cards">
     <div
       class="card"
-      *ngFor="let novedad of novedades"
+      *ngFor="let novedad of novedades; let i = index"
+      [class.primera-card]="i === 0"
       [class.card-con-descripcion]="novedad.descripcion"
       #cardRef
       [@fadeSlide]="novedad.visible ? 'visible' : 'hidden'"

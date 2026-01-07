@@ -28,11 +28,13 @@ import  { CarruselComponent} from '../carrusel/carrusel.component';
 })
 export class NovedadesKioscoComponent {
 novedades = [
+    
     {
-      imagen: 'assets/bolsas-navidad.jpeg',
-      titulo: 'Revoltijos navideños',
+      imagen: 'assets/adrenalyn.png',
+      titulo: 'Adrenalyn',
       visible: false,
-      tipo: 'normal'
+      tipo: 'normal',
+      descripcion: 'Mañana jueves 8 llegan los cromos de Adrenalyn. Y el viernes 9 llegará el álbum. ¡Reserva el tuyo ya!'
     },
     {
       imagen: 'assets/bandeja-chuches.jpeg',
@@ -68,6 +70,12 @@ novedades = [
       visible: false,
       tipo: 'carrusel',
       descripcion: 'Han llegado las revistas mensuales con regalo de agenda 2026 ¡No te quedes sin la tuya!'
+    },
+    {
+      imagen: 'assets/bolsas-navidad.jpeg',
+      titulo: 'Revoltijos navideños',
+      visible: false,
+      tipo: 'normal'
     },
   ];
   @ViewChildren('cardRef') cardElements!: QueryList<ElementRef>;
