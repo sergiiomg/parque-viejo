@@ -42,11 +42,14 @@
   margin-bottom: 20px;
 }
 
+.card:first-child {
+  height: 350px;
+}
+
 .card:hover {
   box-shadow: 0 10px 25px rgba(0,0,0,0.45);
   transform: translateY(-8px);
 }
-
 
 .card img {
   width: 100%;
@@ -64,6 +67,18 @@
 
 .card.card-con-descripcion {
   height: 420px;
+}
+
+.card.card-con-descripcion:nth-child(2) {
+  height: 470px;
+}
+
+.card.card-con-descripcion:nth-child(4) {
+  height: 450px;
+}
+
+.card.card-con-descripcion:nth-child(5) {
+  height: 450px;
 }
 
 .card.card-con-descripcion .card-descripcion {
@@ -109,5 +124,9 @@
 
   .card.card-con-descripcion .card-descripcion {
     margin-top: -10px;
+  }
+
+  .card.card-con-descripcion:first-child {
+    height: 500px;
   }
 }
