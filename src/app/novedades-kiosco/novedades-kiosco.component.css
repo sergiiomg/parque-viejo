@@ -69,16 +69,20 @@
   height: 420px;
 }
 
-.card.card-con-descripcion:nth-child(2) {
-  height: 470px;
+.card.card-con-descripcion:nth-child(1) {
+  height: 400px;
 }
 
-.card.card-con-descripcion:nth-child(4) {
-  height: 450px;
+.card.card-con-descripcion:nth-child(2) {
+  height: 380px;
+}
+
+.card.card-con-descripcion:nth-child(3) {
+  height: 380px;
 }
 
 .card.card-con-descripcion:nth-child(5) {
-  height: 450px;
+  height: 430px;
 }
 
 .card.card-con-descripcion .card-descripcion {
@@ -127,6 +131,6 @@
   }
 
   .card.card-con-descripcion:first-child {
-    height: 500px;
+    height: 420px;
   }
 }

@@ -29,6 +29,27 @@ import  { CarruselComponent} from '../carrusel/carrusel.component';
 export class NovedadesKioscoComponent {
 novedades = [
   {
+      imagen: 'assets/telva.jpeg',
+      titulo: 'Revista Telva',
+      visible: false,
+      tipo: 'normal',
+      descripcion: 'Precio: 6,95€. Incluye un regalo valorado en 20€. ¡No te lo pierdas!'
+    },
+    {
+      imagen: 'assets/elle.jpeg',
+      titulo: 'Revista Elle',
+      visible: false,
+      tipo: 'normal',
+      descripcion: 'Precio: 6,50€. ¡No te quedes sin la tuya!'
+    },
+    {
+      imagen: 'assets/sabervivir.jpeg',
+      titulo: 'Revista Saber Vivir',
+      visible: false,
+      tipo: 'normal',
+      descripcion: 'Precio: 7€. ¡Cuidate con esta revista!'
+    },
+  {
       imagenes: [
         'assets/cromos (1).jpeg',
         'assets/cromos (2).jpeg',
@@ -40,54 +61,12 @@ novedades = [
       tipo: 'carrusel',
       descripcion: ''
     },
-  {
-      imagen: 'assets/revista-febrero (2).png',
-      titulo: 'Revista Woman',
-      visible: false,
-      tipo: 'normal',
-      descripcion: 'La revista Woman (6,50€) del mes de febrero ya está a la venta! Como regalo tenemos una agenda 2026 con 12 ilustraciones de Jorge Arévalo. Viene además con una mini talla de la máscara de pestañas Bad dal Bang de Benefit.'
-    },
-  {
-      imagen: 'assets/revista-febrero (3).png',
-      titulo: 'Revista Telva',
-      visible: false,
-      tipo: 'normal',
-      descripcion: 'Ya está aquí la revista Telva del mes de febrero! Por el precio de 6,50€ tenemos de regalo este mes el contorno de ojos de Alma Secret en tamaño de 10ml.'
-    },
-  {
-      imagen: 'assets/revista-febrero (1).png',
-      titulo: 'Revista Harper´s Bazar',
-      visible: false,
-      tipo: 'normal',
-      descripcion: 'Este mes la revista Harper´s Bazar cuesta 5,95€ y de regalo trae Lip Boom o Intense Kisses de MUA Make Up.'
-    },
-    {
-      imagen: 'assets/elle.jpg',
-      titulo: 'Revista Elle',
-      visible: false,
-      tipo: 'normal',
-      descripcion: 'En la revista grande de ELLE por 6,50€ traerá unos saquitos de la Fundación Aladina y una crema hidratante corporal con esferas de vaquer, en formato 250ml.'
-    },
     {
       imagen: 'assets/adrenalyn.png',
       titulo: 'Adrenalyn',
       visible: false,
       tipo: 'normal',
       descripcion: 'Mañana jueves 8 llegan los cromos de Adrenalyn. Y el viernes 9 llegará el álbum. ¡Reserva el tuyo ya!'
-    },
-    {
-      imagenes: [
-        'assets/revista-calendario.jpeg',
-        'assets/revista-calendario2.jpeg',
-        'assets/revista-calendario3.jpeg',
-        'assets/revista-calendario4.jpeg',
-        'assets/revista-calendario5.jpeg',
-        'assets/revista-calendario6.jpeg',
-      ],
-      titulo: 'Revista con calendario 2026',
-      visible: false,
-      tipo: 'carrusel',
-      descripcion: 'Han llegado las revistas mensuales con regalo de agenda 2026 ¡No te quedes sin la tuya!'
     },
     
   ];
