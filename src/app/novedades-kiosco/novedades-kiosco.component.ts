@@ -29,6 +29,13 @@ import  { CarruselComponent} from '../carrusel/carrusel.component';
 export class NovedadesKioscoComponent {
 novedades = [
   {
+      imagen: 'assets/cromos-premium.jpeg',
+      titulo: 'Ya llegó al kiosco Parque Viejo',
+      visible: false,
+      tipo: 'normal',
+      descripcion: ''
+    },
+  {
       imagen: 'assets/telva.jpeg',
       titulo: 'Revista Telva',
       visible: false,

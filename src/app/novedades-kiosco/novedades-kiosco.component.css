@@ -74,15 +74,19 @@
 }
 
 .card.card-con-descripcion:nth-child(2) {
-  height: 380px;
+  height: 400px;
 }
 
 .card.card-con-descripcion:nth-child(3) {
   height: 380px;
 }
 
+.card.card-con-descripcion:nth-child(4) {
+  height: 380px;
+}
+
 .card.card-con-descripcion:nth-child(5) {
-  height: 430px;
+  height: 400px;
 }
 
 .card.card-con-descripcion .card-descripcion {
