@@ -29,25 +29,47 @@ import  { CarruselComponent} from '../carrusel/carrusel.component';
 export class NovedadesKioscoComponent {
 novedades = [
   {
+      imagen: 'assets/torneo.jpeg',
+      titulo: 'Torneo Trompos Cometa',
+      visible: false,
+      tipo: 'normal',
+      descripcion: 'Todos los jueves de mayo a las 19:00h, en el parque. Participa en el torneo.'
+    },
+  {
+      imagenes: [
+        'assets/TELVA1.jpeg',
+        'assets/TELVA2.jpeg',
+      ],
+      titulo: 'Revista Telva',
+      visible: false,
+      tipo: 'carrusel',
+      descripcion: '¡Con la nueva revista Telva llévate de regalo un serum facial de vitamina C y  ácido hialurónico valorado en 20€! Revista + regalo por 6,95€'
+    },
+    {
+      imagenes: [
+        'assets/ELLEBPC (1).jpeg',
+        'assets/ELLEBPC (2).jpeg',
+        'assets/ELLEBPC (3).jpeg',
+        'assets/ELLEBPC (4).jpeg',
+      ],
+      titulo: 'Revista Elle',
+      visible: false,
+      tipo: 'carrusel',
+      descripcion: '¡Con la nueva revista ELLE llévate de regalo un bolso-pañuelo conturon 3 en 1! Todo por 6,99€'
+    },
+    {
+      imagen: 'assets/2TELVA.jpeg',
+      titulo: 'Revista Telva Ampollas',
+      visible: false,
+      tipo: 'normal',
+      descripcion: 'Con esta edición de la revista Telva llévate 2 ampollas efecto flash valoradas en 8€. ¡Por solo 2,50€!'
+    },
+  {
       imagen: 'assets/cromos-premium.jpeg',
       titulo: 'Ya llegó al kiosco Parque Viejo',
       visible: false,
       tipo: 'normal',
       descripcion: ''
-    },
-  {
-      imagen: 'assets/telva.jpeg',
-      titulo: 'Revista Telva',
-      visible: false,
-      tipo: 'normal',
-      descripcion: 'Precio: 6,95€. Incluye un regalo valorado en 20€. ¡No te lo pierdas!'
-    },
-    {
-      imagen: 'assets/elle.jpeg',
-      titulo: 'Revista Elle',
-      visible: false,
-      tipo: 'normal',
-      descripcion: 'Precio: 6,50€. ¡No te quedes sin la tuya!'
     },
     {
       imagen: 'assets/sabervivir.jpeg',
@@ -67,14 +89,7 @@ novedades = [
       visible: false,
       tipo: 'carrusel',
       descripcion: ''
-    },
-    {
-      imagen: 'assets/adrenalyn.png',
-      titulo: 'Adrenalyn',
-      visible: false,
-      tipo: 'normal',
-      descripcion: 'Mañana jueves 8 llegan los cromos de Adrenalyn. Y el viernes 9 llegará el álbum. ¡Reserva el tuyo ya!'
-    },
+    }
     
   ];
   @ViewChildren('cardRef') cardElements!: QueryList<ElementRef>;

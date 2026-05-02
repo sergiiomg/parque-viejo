@@ -70,23 +70,27 @@
 }
 
 .card.card-con-descripcion:nth-child(1) {
-  height: 400px;
+  height: 420px;
 }
 
 .card.card-con-descripcion:nth-child(2) {
-  height: 400px;
+  height: 420px;
 }
 
 .card.card-con-descripcion:nth-child(3) {
-  height: 380px;
+  height: 400px;
 }
 
 .card.card-con-descripcion:nth-child(4) {
-  height: 380px;
+  height: 420px;
 }
 
 .card.card-con-descripcion:nth-child(5) {
-  height: 400px;
+  height: 380px;
+}
+
+.card.card-con-descripcion:nth-child(6) {
+  height: 380px;
 }
 
 .card.card-con-descripcion .card-descripcion {
@@ -134,7 +138,23 @@
     margin-top: -10px;
   }
 
-  .card.card-con-descripcion:first-child {
-    height: 420px;
+  .card.card-con-descripcion:nth-child(1) {
+  height: 410px;
+  }
+
+  .card.card-con-descripcion:nth-child(2) {
+    height: 450px;
+  }
+
+  .card.card-con-descripcion:nth-child(3) {
+    height: 430px;
+  }
+
+  .card.card-con-descripcion:nth-child(4) {
+    height: 430px;
+  }
+
+  .card.card-con-descripcion:nth-child(5) {
+    height: 380px;
   }
 }
