@@ -29,40 +29,18 @@ import  { CarruselComponent} from '../carrusel/carrusel.component';
 export class NovedadesKioscoComponent {
 novedades = [
   {
-      imagen: 'assets/torneo.jpeg',
-      titulo: 'Torneo Trompos Cometa',
+      imagen: 'assets/ELLEJUNIO.jpeg',
+      titulo: 'Revista Elle Junio',
       visible: false,
       tipo: 'normal',
-      descripcion: 'Todos los jueves de mayo a las 19:00h, en el parque. Participa en el torneo.'
+      descripcion: ''
     },
   {
-      imagenes: [
-        'assets/TELVA1.jpeg',
-        'assets/TELVA2.jpeg',
-      ],
-      titulo: 'Revista Telva',
-      visible: false,
-      tipo: 'carrusel',
-      descripcion: '¡Con la nueva revista Telva llévate de regalo un serum facial de vitamina C y  ácido hialurónico valorado en 20€! Revista + regalo por 6,95€'
-    },
-    {
-      imagenes: [
-        'assets/ELLEBPC (1).jpeg',
-        'assets/ELLEBPC (2).jpeg',
-        'assets/ELLEBPC (3).jpeg',
-        'assets/ELLEBPC (4).jpeg',
-      ],
-      titulo: 'Revista Elle',
-      visible: false,
-      tipo: 'carrusel',
-      descripcion: '¡Con la nueva revista ELLE llévate de regalo un bolso-pañuelo conturon 3 en 1! Todo por 6,99€'
-    },
-    {
-      imagen: 'assets/2TELVA.jpeg',
-      titulo: 'Revista Telva Ampollas',
+      imagen: 'assets/VARIASJUNIO.jpeg',
+      titulo: 'ELLE y VOGUE Junio',
       visible: false,
       tipo: 'normal',
-      descripcion: 'Con esta edición de la revista Telva llévate 2 ampollas efecto flash valoradas en 8€. ¡Por solo 2,50€!'
+      descripcion: ''
     },
   {
       imagen: 'assets/cromos-premium.jpeg',
@@ -70,13 +48,6 @@ novedades = [
       visible: false,
       tipo: 'normal',
       descripcion: ''
-    },
-    {
-      imagen: 'assets/sabervivir.jpeg',
-      titulo: 'Revista Saber Vivir',
-      visible: false,
-      tipo: 'normal',
-      descripcion: 'Precio: 7€. ¡Cuidate con esta revista!'
     },
   {
       imagenes: [

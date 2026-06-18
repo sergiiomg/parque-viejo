@@ -85,14 +85,6 @@
   height: 420px;
 }
 
-.card.card-con-descripcion:nth-child(5) {
-  height: 380px;
-}
-
-.card.card-con-descripcion:nth-child(6) {
-  height: 380px;
-}
-
 .card.card-con-descripcion .card-descripcion {
   margin-top: -45px;
 }
