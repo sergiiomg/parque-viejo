@@ -29,6 +29,37 @@ import  { CarruselComponent} from '../carrusel/carrusel.component';
 export class NovedadesKioscoComponent {
 novedades = [
   {
+      imagen: 'assets/COSMOPOLITANJUNIO.jpeg',
+      titulo: 'Revista Cosmopolitan Junio',
+      visible: false,
+      tipo: 'normal',
+      descripcion: 'La revista incluye un acondicionador restore y un libro de Megan Maxwell por solo 5,90€. ¡No te lo pierdas!'
+    },
+  {
+      imagenes: [
+        'assets/TELVAJUNIO.jpeg',
+        'assets/TELVAJUNIO2.jpeg',
+      ],
+      titulo: 'Revista Telva Junio',
+      visible: false,
+      tipo: 'carrusel',
+      descripcion: 'La revista Telva de junio incluye una crema antimanchas y un bolso XXL por 6,95€. ¡Cómpralo ya!'
+    },
+  {
+      imagen: 'assets/INSTYLEJUNIO.jpeg',
+      titulo: 'Revista InStyle Junio',
+      visible: false,
+      tipo: 'normal',
+      descripcion: 'La revista InStyle de junio incluye 2 revistas + bolso capazo por 10€. ¡Cómpralo ya!'
+    },
+  {
+      imagen: 'assets/WOMANJUNIO.jpeg',
+      titulo: 'Revista Woman Junio',
+      visible: false,
+      tipo: 'normal',
+      descripcion: 'La revista Woman de junio incluye un neceser y un protector solar de regalo. ¡No te lo pierdas!'
+    },
+  {
       imagen: 'assets/ELLEJUNIO.jpeg',
       titulo: 'Revista Elle Junio',
       visible: false,
